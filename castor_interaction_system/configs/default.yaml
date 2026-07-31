@@ -1,0 +1,12 @@
+session_name: "sessao_default"
+video_path: "data/Sesion1_Avril.mp4"
+hardware:
+  device: "cpu"  # pode ser 'cuda'
+models:
+  yolo_person: "yolov8n.pt"
+  yolo_castor: "models/castor.pt"
+  yolo_hand: "models/hand_yolov8n.pt"
+proxemics:
+  intimate_cm: 45
+  personal_cm: 120
+  social_cm: 360
